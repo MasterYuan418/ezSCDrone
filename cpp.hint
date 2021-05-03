@@ -1,0 +1,32 @@
+// 提示文件帮助 Visual Studio IDE 解释 Visual C++ 标识符,
+// 如函数和宏的名称。
+// 有关详细信息，请参见 https://go.microsoft.com/fwlink/?linkid=865984
+#define 校准 CMD_ACC 
+#define 起飞 CMD_TAKEOFF 
+#define 降落 CMD_LAND 
+#define 上升 CMD_UP 
+#define 向左 CMD_LEFT 
+#define 下降 CMD_DOWN 
+#define 向右 CMD_RIGHT 
+#define 前进 CMD_FORWARD 
+#define 向后 CMD_BACK 
+#define 拍照 CMD_TAKE_PHOTO 
+#define 定高 CMD_TOF_ALT 
+#define 射击 CMD_SHOOT 
+#define 起飞高度 CMD_TAKEOFF_ALTH
+#define 向左旋转 CMD_LEFT_YAW
+#define 向右旋转 CMD_RIGHT_YAW
+#define 等待(t) Sleep(t)
+#define 要求(c) action_cmd(c);
+#define 要求高度(up,height) action_cmd(up,height);
+#define 要求动作(action,power,length) action_cmd(action,power,length);
+#define 起飞许可() TAKEOFF()
+#define 九十度 1300
+#define 四十五度 650
+#define 如果不 else
+#define 如果 if
+#define 真 true
+#define 存在 ==
+#define 报告(text) printf(text);
+#define 向左旋转 TURNLEFT()
+#define 向右旋转 TURNRIGHT()
